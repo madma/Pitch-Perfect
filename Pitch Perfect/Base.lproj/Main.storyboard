@@ -77,13 +77,13 @@
                                 <exclude reference="ECX-kc-4rp"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="2gT-qc-qcg"/>
-                                <exclude reference="kJ6-Ig-M8W"/>
                                 <exclude reference="DO5-XM-ON7"/>
                                 <exclude reference="XAJ-Ia-62t"/>
                                 <exclude reference="sPd-9B-34N"/>
                                 <exclude reference="Pzc-H7-QSY"/>
                                 <exclude reference="gfa-KI-gAx"/>
+                                <exclude reference="2gT-qc-qcg"/>
+                                <exclude reference="kJ6-Ig-M8W"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -93,13 +93,13 @@
                                 <include reference="ECX-kc-4rp"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="2gT-qc-qcg"/>
-                                <include reference="kJ6-Ig-M8W"/>
                                 <exclude reference="DO5-XM-ON7"/>
                                 <include reference="XAJ-Ia-62t"/>
                                 <include reference="sPd-9B-34N"/>
                                 <include reference="Pzc-H7-QSY"/>
                                 <include reference="gfa-KI-gAx"/>
+                                <include reference="2gT-qc-qcg"/>
+                                <include reference="kJ6-Ig-M8W"/>
                             </mask>
                         </variation>
                     </view>
@@ -214,16 +214,16 @@
                                 <exclude reference="TPq-e3-lY9"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="xjw-Oz-c7q"/>
+                                <exclude reference="Iqr-vh-MwL"/>
+                                <exclude reference="cdp-nY-0aW"/>
+                                <exclude reference="e27-v8-8oP"/>
+                                <exclude reference="hVy-7g-SKh"/>
                                 <exclude reference="IQl-Ei-sC6"/>
                                 <exclude reference="bwc-x3-h4p"/>
                                 <exclude reference="Ew7-JE-RrU"/>
                                 <exclude reference="kr3-Uq-4LW"/>
-                                <exclude reference="e27-v8-8oP"/>
-                                <exclude reference="hVy-7g-SKh"/>
-                                <exclude reference="Iqr-vh-MwL"/>
-                                <exclude reference="cdp-nY-0aW"/>
                                 <exclude reference="RWz-XC-oac"/>
-                                <exclude reference="xjw-Oz-c7q"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -235,16 +235,16 @@
                                 <include reference="TPq-e3-lY9"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="xjw-Oz-c7q"/>
+                                <include reference="Iqr-vh-MwL"/>
+                                <include reference="cdp-nY-0aW"/>
+                                <include reference="e27-v8-8oP"/>
+                                <include reference="hVy-7g-SKh"/>
                                 <include reference="IQl-Ei-sC6"/>
                                 <include reference="bwc-x3-h4p"/>
                                 <include reference="Ew7-JE-RrU"/>
                                 <include reference="kr3-Uq-4LW"/>
-                                <include reference="e27-v8-8oP"/>
-                                <include reference="hVy-7g-SKh"/>
-                                <include reference="Iqr-vh-MwL"/>
-                                <include reference="cdp-nY-0aW"/>
                                 <include reference="RWz-XC-oac"/>
-                                <include reference="xjw-Oz-c7q"/>
                             </mask>
                         </variation>
                     </view>
