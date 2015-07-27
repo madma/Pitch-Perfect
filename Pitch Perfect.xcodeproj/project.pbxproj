@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		006387031B66B03800C033B7 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006387021B66B03800C033B7 /* RecordedAudio.swift */; };
 		008121461B4DABA2005D0B3E /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008121451B4DABA2005D0B3E /* PlaySoundsViewController.swift */; };
-		008121481B4DBAEF005D0B3E /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 008121471B4DBAEF005D0B3E /* movie_quote.mp3 */; };
 		00E6C8451B17D87500669885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E6C8441B17D87500669885 /* AppDelegate.swift */; };
 		00E6C8471B17D87500669885 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E6C8461B17D87500669885 /* RecordSoundsViewController.swift */; };
 		00E6C84A1B17D87500669885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E6C8481B17D87500669885 /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 /* Begin PBXFileReference section */
 		006387021B66B03800C033B7 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		008121451B4DABA2005D0B3E /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
-		008121471B4DBAEF005D0B3E /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = ../movie_quote.mp3; sourceTree = "<group>"; };
 		00E6C83F1B17D87500669885 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E6C8431B17D87500669885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E6C8441B17D87500669885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 		00E6C8421B17D87500669885 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				008121471B4DBAEF005D0B3E /* movie_quote.mp3 */,
 				00E6C8431B17D87500669885 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -204,7 +201,6 @@
 			files = (
 				00E6C84A1B17D87500669885 /* Main.storyboard in Resources */,
 				00E6C84F1B17D87500669885 /* LaunchScreen.xib in Resources */,
-				008121481B4DBAEF005D0B3E /* movie_quote.mp3 in Resources */,
 				00E6C84C1B17D87500669885 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
