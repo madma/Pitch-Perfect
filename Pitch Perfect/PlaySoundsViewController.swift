@@ -49,24 +49,18 @@ class PlaySoundsViewController: UIViewController {
     }
     
     @IBAction func stopAudio(sender: UIButton) {
-        audioPlayer.stop()
-        audioEngine.stop()
-        audioEngine.reset()
+        stopAndResetAudio()
     }
     
     func playAudio(playRate: Float, time: NSTimeInterval) {
-        audioPlayer.stop()
-        audioEngine.stop()
-        audioEngine.reset()
+        stopAndResetAudio()
         audioPlayer.currentTime = time
         audioPlayer.rate = playRate
         audioPlayer.play()
     }
     
     func playAudioWithVariablePitch(pitch: Float){
-        audioPlayer.stop()
-        audioEngine.stop()
-        audioEngine.reset()
+        stopAndResetAudio()
         
         var audioPlayerNode = AVAudioPlayerNode()
         audioEngine.attachNode(audioPlayerNode)
@@ -82,6 +76,12 @@ class PlaySoundsViewController: UIViewController {
         audioEngine.startAndReturnError(nil)
         
         audioPlayerNode.play()
+    }
+    
+    func stopAndResetAudio() {
+        audioPlayer.stop()
+        audioEngine.stop()
+        audioEngine.reset()
     }
 
 }
