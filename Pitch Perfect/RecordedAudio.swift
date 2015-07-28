@@ -12,11 +12,8 @@ class RecordedAudio: NSObject{
     var filePathUrl: NSURL!
     var title: String!
     
-    init(path: NSURL) {
+    init(path: NSURL!, fileName: String!) {
         filePathUrl = path
-    }
-    
-    init(fileName: String) {
         title = fileName
     }
 }
